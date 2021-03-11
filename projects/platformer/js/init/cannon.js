@@ -21,7 +21,7 @@
      *          - the y coordinate for "left" and "right" cannons
      *      delay: OPTIONAL the number of milliseconds to wait before firing the first projectile
      */ 
-    function init(_game) {
+    function init(game) {
         let createCannon = cannon.create;
         ////////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
